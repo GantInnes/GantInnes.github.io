@@ -1,0 +1,14 @@
+body {
+  font-family: system-ui;
+  background: #72e7c3 ;
+  color: black;
+  text-align: center;
+}
+
+div {
+  text-align: center;
+  width:100%;
+}
+iframe{
+  width: 700px;
+}
