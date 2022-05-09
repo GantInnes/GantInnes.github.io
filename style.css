@@ -1,6 +1,8 @@
 html, body {
     width:100%;
     height:100%;
+    padding:0;
+    margin:0;
     background-color: #e1e2ff;
     text-align: center;
 }
@@ -11,23 +13,14 @@ html, body {
   font-size: 30px;
 }
 
-.table {
-    display:table;
-    width:100%; 
+.grid {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(3, 1fr);
 }
-.row {
-  display:table-row;
-  
+
+div > div {
+  padding: 10px;
+  border-bottom:5px solid #CCC;
 }
-.cell {
-   display:table-cell;
-   max-width: 500px;
-   border-bottom:5px solid #CCC;
-   border: 1px solid black;
-   
-}
-.center{
-  width: 100%;
-  height: auto;
- 
-}
+
