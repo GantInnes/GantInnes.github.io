@@ -19,7 +19,7 @@ html, body {
   grid-template-columns: repeat(3, 1fr);
 }
 
-div > div {
+div {
   padding: 10px;
   border-bottom:5px solid #CCC;
 }
